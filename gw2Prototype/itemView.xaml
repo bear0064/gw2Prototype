@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="gw2Prototype.itemView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:gw2Prototype"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource AppBarItemForegroundThemeBrush}">
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="865" Margin="-595,-70,-625,-155" Stroke="Black" VerticalAlignment="Top" Width="1580" Opacity="0.905"/>
+        <Image x:Name="imageIcon" Height="75" Margin="8,30,277,0" VerticalAlignment="Top" Width="75" Source="Assets/CharacterProfileBackground.png" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="itemName" HorizontalAlignment="Center" Height="75" Margin="96,30,10,0" TextWrapping="Wrap" Text="Dire Exalted Masque" VerticalAlignment="Top" Foreground="#FFDF8B1A" FontFamily="menomonia " FontSize="21.333" Width="254"/>
+        <TextBlock x:Name="itemDefenceBreak" HorizontalAlignment="Center" Height="10" Margin="12,115,308,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8" Text="Defence:"/>
+        <TextBlock x:Name="itemDefenceValue" HorizontalAlignment="Center" Height="10" Margin="45,115,275,0" TextWrapping="Wrap" Text="73" VerticalAlignment="Top" Width="40" Foreground="#FF40FF00" FontFamily="Tahoma" FontSize="8"/>
+
+        <TextBlock x:Name="attribute1" HorizontalAlignment="Center" Height="10" Margin="10,140,210,0" TextWrapping="Wrap" Text="+60 Condition Damage" VerticalAlignment="Top" Width="140" Foreground="#FF40FF00" FontFamily="Tahoma" FontSize="8"/>
+        <TextBlock x:Name="attribute2" HorizontalAlignment="Center" Height="10" Margin="10,155,210,0" TextWrapping="Wrap" Text="+43 Toughness" VerticalAlignment="Top" Width="140" Foreground="#FF40FF00" FontFamily="Tahoma" FontSize="8"/>
+        <TextBlock x:Name="attribute3" HorizontalAlignment="Center" Height="10" Margin="10,170,210,0" TextWrapping="Wrap" Text="+43 Vitality" VerticalAlignment="Top" Width="140" Foreground="#FF40FF00" FontFamily="Tahoma" FontSize="8"/>
+        <TextBlock x:Name="UpgradeName" HorizontalAlignment="Center" Height="10" Margin="12,195,153,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" Foreground="#FF1992F2" FontFamily="Tahoma" FontSize="8" Text="Superior Rune of Perplexity"/>
+        <TextBlock x:Name="Bonus1" Height="30" Margin="13,210,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF1992F2" FontFamily="Tahoma" FontSize="8" Text="(1) +25 Condition Damage" HorizontalAlignment="Center" Width="337"/>
+        <TextBlock x:Name="Bonus2" HorizontalAlignment="Center" Height="10" Margin="13,225,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF1992F2" FontFamily="Tahoma" FontSize="8" Text="(2) +10% Confusion Duration" Width="337"/>
+        <TextBlock x:Name="Bonus3" HorizontalAlignment="Center" Height="10" Margin="13,240,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF1992F2" FontFamily="Tahoma" FontSize="8" Text="(3) +50 Condition Damage" Width="337"/>
+        <TextBlock x:Name="Bonus4" HorizontalAlignment="Center" Height="25" Margin="13,256,25,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF1992F2" FontFamily="Tahoma" FontSize="8" Text="(4) 25% chance when struck to inflict 3 stacks of confusion for 5 seconds. cooldown: 25 Seconds)" Width="322"/>
+        <TextBlock x:Name="Bonus5" HorizontalAlignment="Center" Height="10" Margin="13,278,277,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF1992F2" FontFamily="Tahoma" FontSize="8" Text="(5) +100 Condition damage" Width="70"/>
+        <TextBlock x:Name="Bonus6" HorizontalAlignment="Center" Height="25" Margin="13,293,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF1992F2" FontFamily="Tahoma" FontSize="8" Text="(6) +20% confusion duration; when you interrupt a foe, cause 5 stacks of confusion for 8 seconds. (Cooldown: 15s)" Width="327"/>
+        <TextBlock x:Name="Rarity" HorizontalAlignment="Center" Height="10" Margin="12,345,273,0" TextWrapping="Wrap" Text="Exotic" VerticalAlignment="Top" Width="75" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+        <TextBlock x:Name="Weight" HorizontalAlignment="Center" Height="10" Margin="12,360,273,0" TextWrapping="Wrap" Text="Light" VerticalAlignment="Top" Width="75" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+        <TextBlock x:Name="Type" HorizontalAlignment="Center" Height="10" Margin="12,375,273,0" TextWrapping="Wrap" Text="Helm" VerticalAlignment="Top" Width="75" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+        <TextBlock x:Name="level" HorizontalAlignment="Center" Height="10" Margin="73,390,242,0" TextWrapping="Wrap" Text="80" VerticalAlignment="Top" Width="45" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+        <TextBlock x:Name="levelReq" HorizontalAlignment="Center" Height="10" Margin="12,390,288,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Foreground="White" FontFamily="Tahoma" FontSize="8" Text="Required Level:"/>
+
+
+    </Grid>
+</Page>

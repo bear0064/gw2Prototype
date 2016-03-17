@@ -1,0 +1,89 @@
+﻿<Page
+    x:Class="gw2Prototype.CharacterBuild"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:gw2Prototype"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource AppBarItemForegroundThemeBrush}">
+
+        <Image x:Name="backgroundImg" Source="Assets/background.png" Margin="-444,-205,-442,-195"/>
+
+
+        <RelativePanel Height="95" VerticalAlignment="Top" Width="360" Canvas.ZIndex="2" HorizontalAlignment="Center" >
+            <Image x:Name="spec1" Height="115" VerticalAlignment="Top" Source="Assets/mesmer_Dom.png" Margin="0,-20,0,-3" HorizontalAlignment="Left" Width="565" ScrollViewer.VerticalScrollBarVisibility="Disabled" Stretch="Fill"/>
+            <Image x:Name="specIcon1" HorizontalAlignment="Left" Height="70" Margin="25,18,-10,0" VerticalAlignment="Top" Width="70" Source="Assets/domIcon.png"/>
+
+            <Image x:Name="traitLineOneHexOne" HorizontalAlignment="Left" Height="20" Margin="110,43,-130,-63" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.5,0.5" Source="Assets/Minor_trait_hexagonal_mask.png"/>
+            <Image x:Name="traitLineOneSqrOne" HorizontalAlignment="Left" Height="21" Margin="152,16,-173,-37" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineOneSqrTwo" HorizontalAlignment="Left" Height="21" Margin="152,42,-173,-63" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineOneSqrThree" HorizontalAlignment="Left" Height="21" Margin="152,67,-173,-88" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineOneHexTwo" HorizontalAlignment="Left" Height="20" Margin="194,43,-214,-63" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.5,0.5" Source="Assets/Minor_trait_hexagonal_mask.png"/>
+            <Image x:Name="traitLineOneSqrFour" HorizontalAlignment="Left" Height="21" Margin="237,16,-258,-37" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineOneSqrFive" HorizontalAlignment="Left" Height="21" Margin="237,42,-258,-63" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineOneSqrSix" HorizontalAlignment="Left" Height="21" Margin="237,67,-258,-88" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineOneHexThree" HorizontalAlignment="Left" Height="20" Margin="281,43,-301,-63" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.5,0.5" Source="Assets/Minor_trait_hexagonal_mask.png"/>
+            <Image x:Name="traitLineOneSqrSeven" HorizontalAlignment="Left" Height="21" Margin="320,16,-341,-37" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineOneSqrEight" HorizontalAlignment="Left" Height="21" Margin="320,42,-341,-63" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineOneSqrNine" HorizontalAlignment="Left" Height="21" Margin="320,67,-341,-88" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+
+
+        </RelativePanel>
+        <RelativePanel Height="95" Margin="0,95,0,0" VerticalAlignment="Top" Width="360" HorizontalAlignment="Center" Canvas.ZIndex="1">
+
+            <Image x:Name="spec2" Height="115" VerticalAlignment="Top" Source="Assets/mesmer_Dom.png" Stretch="Fill" Margin="0,-20,0,0" HorizontalAlignment="Left" Width="565"/>
+            <Image x:Name="specIcon2" HorizontalAlignment="Left" Height="70" Margin="25,20,0,0" VerticalAlignment="Top" Width="70" Source="Assets/domIcon.png"/>
+
+
+            <Image x:Name="traitLineTwoHexOne" HorizontalAlignment="Left" Height="20" Margin="110,43,-130,-63" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.5,0.5" Source="Assets/Minor_trait_hexagonal_mask.png"/>
+            <Image x:Name="traitLineTwoSqrOne" HorizontalAlignment="Left" Height="21" Margin="152,16,-173,-37" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineTwoSqrTwo" HorizontalAlignment="Left" Height="21" Margin="152,42,-173,-63" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineTwoSqrThree" HorizontalAlignment="Left" Height="21" Margin="152,67,-173,-88" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineTwoHexTwo" HorizontalAlignment="Left" Height="20" Margin="194,43,-214,-63" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.5,0.5" Source="Assets/Minor_trait_hexagonal_mask.png"/>
+            <Image x:Name="traitLineTwoSqrFour" HorizontalAlignment="Left" Height="21" Margin="237,16,-258,-37" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineTwoSqrFive" HorizontalAlignment="Left" Height="21" Margin="237,42,-258,-63" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineTwoSqrSix" HorizontalAlignment="Left" Height="21" Margin="237,67,-258,-88" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineTwoHexThree" HorizontalAlignment="Left" Height="20" Margin="281,43,-301,-63" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.5,0.5" Source="Assets/Minor_trait_hexagonal_mask.png"/>
+            <Image x:Name="traitLineTwoSqrSeven" HorizontalAlignment="Left" Height="21" Margin="320,16,-341,-37" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineTwoSqrEight" HorizontalAlignment="Left" Height="21" Margin="320,42,-341,-63" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineTwoSqrNine" HorizontalAlignment="Left" Height="21" Margin="320,67,-341,-88" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+
+
+        </RelativePanel>
+
+        <RelativePanel Height="95" Margin="0,190,0,0" VerticalAlignment="Top" Width="360" HorizontalAlignment="Center">
+
+            <Image x:Name="spec3" Source="Assets/mesmer_Dom.png" Stretch="Fill" Margin="0,-20,0,0" HorizontalAlignment="Left" Width="565" Height="115" VerticalAlignment="Top"/>
+            <Image x:Name="specIcon3" HorizontalAlignment="Left" Height="70" Margin="25,20,0,0" VerticalAlignment="Top" Width="70" Source="Assets/domIcon.png"/>
+
+            <Image x:Name="traitLineThreeHexOne" HorizontalAlignment="Left" Height="20" Margin="110,43,-130,-63" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.5,0.5" Source="Assets/Minor_trait_hexagonal_mask.png"/>
+            <Image x:Name="traitLineThreeSqrOne" HorizontalAlignment="Left" Height="21" Margin="152,16,-173,-37" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineThreeSqrTwo" HorizontalAlignment="Left" Height="21" Margin="152,42,-173,-63" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineThreeSqrThree" HorizontalAlignment="Left" Height="21" Margin="152,67,-173,-88" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineThreeHexTwo" HorizontalAlignment="Left" Height="20" Margin="194,43,-214,-63" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.5,0.5" Source="Assets/Minor_trait_hexagonal_mask.png"/>
+            <Image x:Name="traitLineThreeSqrFour" HorizontalAlignment="Left" Height="21" Margin="237,16,-258,-37" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineThreeSqrFive" HorizontalAlignment="Left" Height="21" Margin="237,42,-258,-63" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineThreeSqrSix" HorizontalAlignment="Left" Height="21" Margin="237,67,-258,-88" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineThreeHexThree" HorizontalAlignment="Left" Height="20" Margin="281,43,-301,-63" VerticalAlignment="Top" Width="20" RenderTransformOrigin="0.5,0.5" Source="Assets/Minor_trait_hexagonal_mask.png"/>
+            <Image x:Name="traitLineThreeSqrSeven" HorizontalAlignment="Left" Height="21" Margin="320,16,-341,-37" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineThreeSqrEight" HorizontalAlignment="Left" Height="21" Margin="320,42,-341,-63" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+            <Image x:Name="traitLineThreeSqrNine" HorizontalAlignment="Left" Height="21" Margin="320,67,-341,-88" VerticalAlignment="Top" Width="21" Source="Assets/Major_trait_square_mask.png"/>
+
+
+        </RelativePanel>
+    
+    </Grid>
+
+
+    <Page.BottomAppBar>
+        <CommandBar Background="Black" Foreground="White" ClosedDisplayMode="Minimal" >
+            <CommandBar.Content>
+                <Grid/>
+            </CommandBar.Content>
+            <AppBarButton Icon="Read" Label="About" Foreground="White" Click="about_Page" />
+        </CommandBar>
+    </Page.BottomAppBar>
+
+</Page>

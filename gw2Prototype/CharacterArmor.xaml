@@ -1,0 +1,134 @@
+﻿<Page
+    x:Class="gw2Prototype.CharacterArmor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:gw2Prototype"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource AppBarItemForegroundThemeBrush}">
+
+        <Image x:Name="backgroundImg" Source="Assets/background.png" Margin="-444,-205,-442,-195"/>
+
+
+        <ScrollViewer Width="360" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" Margin="0,0,0,22">
+
+
+
+
+
+            <Grid HorizontalAlignment="Center" Height="640" VerticalAlignment="Center" Width="360">
+                <TextBlock x:Name="CharacterName" HorizontalAlignment="Center" Height="25" Margin="85,40,80,0" TextWrapping="Wrap" Text="Character Name" VerticalAlignment="Top" Width="195" Foreground="White" FontFamily="menomonia " FontSize="21.333" TextAlignment="Center"/>
+
+                <Image x:Name="Helm" HorizontalAlignment="Left" Height="45" Margin="30,84,0,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Shoulders" HorizontalAlignment="Left" Height="46" Margin="30,134,0,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Coat" HorizontalAlignment="Left" Height="45" Margin="30,186,0,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Gloves" HorizontalAlignment="Left" Height="44" Margin="30,238,0,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Leggings" HorizontalAlignment="Left" Height="45" Margin="30,289,0,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Boots" HorizontalAlignment="Left" Height="45" Margin="30,340,0,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="WeaponA1" HorizontalAlignment="Left" Height="44" Margin="30,392,0,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="WeaponA2" HorizontalAlignment="Left" Height="45" Margin="30,443,0,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="WeaponB1" HorizontalAlignment="Left" Height="46" Margin="30,494,0,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="WeaponB2" HorizontalAlignment="Left" Margin="30,546,0,0" VerticalAlignment="Top" Source="Assets/CharacterProfileBackground.png" Height="45"/>
+                <Image x:Name="Backpack" HorizontalAlignment="Center" Height="45" Margin="205,385,110,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Accessory1" HorizontalAlignment="Center" Height="45" Margin="255,385,60,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Accessory2" HorizontalAlignment="Center" Height="45" Margin="305,385,10,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Amulet" HorizontalAlignment="Center" Height="45" Margin="205,435,110,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Ring1" HorizontalAlignment="Center" Height="45" Margin="255,435,60,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Ring2" HorizontalAlignment="Center" Height="45" Margin="305,435,10,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Sickle" HorizontalAlignment="Center" Height="45" Margin="205,501,110,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Axe" HorizontalAlignment="Center" Height="45" Margin="255,501,60,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="Pick" HorizontalAlignment="Center" Height="45" Margin="305,501,10,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="HelmAquatic" HorizontalAlignment="Center" Height="45" Margin="205,551,110,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="WeaponAquaticA" HorizontalAlignment="Center" Height="45" Margin="255,551,60,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+                <Image x:Name="WeaponAquaticB" HorizontalAlignment="Center" Height="45" Margin="305,551,10,0" VerticalAlignment="Top" Width="45" Source="Assets/CharacterProfileBackground.png"/>
+
+                <TextBlock x:Name="attributes" Height="20" Margin="205,82,10,0" TextWrapping="Wrap" Text="Attributes" VerticalAlignment="Top" Width="145" TextAlignment="Center" Foreground="White" FontFamily="menomonia "/>
+
+
+                <Grid Height="250" Margin="205,115,0,0" VerticalAlignment="Top" Width="145">
+
+
+
+
+                    <Image x:Name="powerImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="10,10,0,0" Source="Assets/Attrib/Power.png"/>
+                    <Image x:Name="toughnessImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="10,30,0,0" Source="Assets/Attrib/Toughness.png"/>
+                    <Image x:Name="vitalityImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="10,50,0,0" Source="Assets/Attrib/Vitality.png"/>
+                    <Image x:Name="precisionImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="10,70,0,0" Source="Assets/Attrib/Precision.png"/>
+                    <Image x:Name="ferocityImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="10,90,0,0" Source="Assets/Attrib/Ferocity.png"/>
+                    <Image x:Name="conditionDmgImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="10,110,0,0" Source="Assets/Attrib/Condition_Damage.png"/>
+                    <Image x:Name="expertiseImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="10,130,0,0" Source="Assets/Attrib/Condition_Duration.png"/>
+                    <Image x:Name="concentrationImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="10,150,0,0" Source="Assets/Attrib/Boon_Duration.png"/>
+                    <Image x:Name="agonyResImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="10,170,0,0" Source="Assets/Attrib/Agony_Resistance.png"/>
+                    <Image x:Name="professionAttImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="80,10,0,0" Source="Assets/Attrib/Boon_Duration.png"/>
+                    <Image x:Name="armorImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="80,30,0,0" Source="Assets/Attrib/Armor_(attribute).png"/>
+                    <Image x:Name="healthImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="80,50,0,0" Source="Assets/Attrib/Health.png"/>
+                    <Image x:Name="criticalChanceImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="80,70,0,0" Source="Assets/Attrib/Critical_Chance.png"/>
+                    <Image x:Name="criticalDmgImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="80,90,0,0" Source="Assets/Attrib/Critical_Damage.png"/>
+                    <Image x:Name="healingPwrImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="80,110,0,0" Source="Assets/Attrib/Healing_Power.png"/>
+                    <Image x:Name="conditionDurationImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="80,130,0,0" Source="Assets/Attrib/Condition_Duration.png"/>
+                    <Image x:Name="boonDurationImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="80,150,0,0" Source="Assets/Attrib/Boon_Duration.png"/>
+                    <Image x:Name="magicFindImg" HorizontalAlignment="Left" Height="15" VerticalAlignment="Top" Width="15" Margin="80,170,0,0" Source="Assets/Attrib/Magic_Find.png"/>
+                    <TextBlock x:Name="power" HorizontalAlignment="Left" Height="15" Margin="30,12,0,0" TextWrapping="Wrap" Text="1,906" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="toughness" HorizontalAlignment="Left" Height="15" Margin="30,32,0,0" TextWrapping="Wrap" Text="1,556" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="vitality" HorizontalAlignment="Left" Height="15" Margin="30,52,0,0" TextWrapping="Wrap" Text="1,141" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="precision" HorizontalAlignment="Left" Height="15" Margin="30,72,0,0" TextWrapping="Wrap" Text="1,441" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="ferocity" HorizontalAlignment="Left" Height="15" Margin="30,92,0,0" TextWrapping="Wrap" Text="1,800" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="conditionDamage" HorizontalAlignment="Left" Height="15" Margin="30,112,0,0" TextWrapping="Wrap" Text="344" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="expertise" HorizontalAlignment="Left" Height="15" Margin="30,132,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="concentration" HorizontalAlignment="Left" Height="15" Margin="30,152,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="agonyResistence" HorizontalAlignment="Left" Height="15" Margin="30,172,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="professionAttribute" HorizontalAlignment="Left" Height="15" Margin="100,12,0,0" TextWrapping="Wrap" Text="15%" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="armor" HorizontalAlignment="Left" Height="15" Margin="100,32,0,0" TextWrapping="Wrap" Text="1,555" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="health" HorizontalAlignment="Left" Height="15" Margin="100,52,0,0" TextWrapping="Wrap" Text="22,300" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="criticalChance" HorizontalAlignment="Left" Height="15" Margin="100,72,0,0" TextWrapping="Wrap" Text="44.47%" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="criticalDamage" HorizontalAlignment="Left" Height="15" Margin="100,92,0,0" TextWrapping="Wrap" Text="207.5%" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="conditionDuration" HorizontalAlignment="Left" Height="15" Margin="100,132,0,0" TextWrapping="Wrap" Text="0.0%" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="healing" HorizontalAlignment="Left" Height="15" Margin="100,112,0,0" TextWrapping="Wrap" Text="150" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="boonDuration" HorizontalAlignment="Left" Height="15" Margin="100,152,0,0" TextWrapping="Wrap" Text="0.0%" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+                    <TextBlock x:Name="magicFind" HorizontalAlignment="Left" Height="15" Margin="100,172,0,0" TextWrapping="Wrap" Text="105%" VerticalAlignment="Top" Width="40" Foreground="White" FontFamily="Tahoma" FontSize="8"/>
+
+
+
+                </Grid>
+                <Button x:Name="helmButton" Content="" HorizontalAlignment="Left" Height="45" Margin="30,83,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Helm"/>
+                <Button x:Name="BackpackButton" Content="" HorizontalAlignment="Left" Height="45" Margin="205,385,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Backpack"/>
+                <Button x:Name="ShouldersButton" Content="" HorizontalAlignment="Left" Height="45" Margin="30,134,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Shoulders"/>
+                <Button x:Name="CoatButton" Content="" HorizontalAlignment="Left" Height="45" Margin="30,186,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Coat"/>
+                <Button x:Name="GlovesButton" Content="" HorizontalAlignment="Left" Height="45" Margin="30,236,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Gloves"/>
+                <Button x:Name="LeggingsButton" Content="" HorizontalAlignment="Left" Height="45" Margin="30,287,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Leggings"/>
+                <Button x:Name="BootsButton" Content="" HorizontalAlignment="Left" Height="45" Margin="30,340,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Boots"/>
+                <Button x:Name="WeaponA1Button" Content="" HorizontalAlignment="Left" Height="45" Margin="30,391,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="WeaponA1"/>
+                <Button x:Name="WeaponA2Button" Content="" HorizontalAlignment="Left" Height="45" Margin="30,444,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="WeaponA2"/>
+                <Button x:Name="WeaponB1Button" Content="" HorizontalAlignment="Left" Height="45" Margin="30,496,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="WeaponB1"/>
+                <Button x:Name="WeaponB2Button" Content="" HorizontalAlignment="Left" Height="45" Margin="30,546,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="WeaponB2"/>
+                <Button x:Name="Accessory1Button" Content="" HorizontalAlignment="Left" Height="45" Margin="255,385,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Accessory1"/>
+                <Button x:Name="Access2Button" Content="" HorizontalAlignment="Left" Height="45" Margin="307,385,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Accessory2"/>
+                <Button x:Name="Ring2Button" Content="" HorizontalAlignment="Left" Height="45" Margin="305,436,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Ring2"/>
+                <Button x:Name="Ring1Button" Content="" HorizontalAlignment="Left" Height="45" Margin="255,435,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Ring1"/>
+                <Button x:Name="AmuletButton" Content="" HorizontalAlignment="Left" Height="45" Margin="205,435,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Amulet"/>
+                <Button x:Name="SickleButton" Content="" HorizontalAlignment="Left" Height="45" Margin="205,501,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Sickle"/>
+                <Button x:Name="AxeButton" Content="" HorizontalAlignment="Left" Height="45" Margin="255,501,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Axe"/>
+                <Button x:Name="PickButton" Content="" HorizontalAlignment="Left" Height="45" Margin="307,501,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="Pick"/>
+                <Button x:Name="AquaticWeaponBButton" Content="" HorizontalAlignment="Left" Height="45" Margin="305,551,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="AquaticWeaponB"/>
+                <Button x:Name="AquaticButtonAButton" Content="" HorizontalAlignment="Left" Height="45" Margin="255,551,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="AquaticWeaponA"/>
+                <Button x:Name="AquaticHelmButton" Content="" HorizontalAlignment="Left" Height="45" Margin="205,551,0,0" VerticalAlignment="Top" Width="45" Click="item_Check" Tag="AquaticHelm"/>
+            </Grid>
+
+
+
+        </ScrollViewer>
+    </Grid>
+
+
+    <Page.BottomAppBar>
+        <CommandBar Background="Black" Foreground="White"  ClosedDisplayMode="Minimal">
+            <CommandBar.Content>
+                <Grid/>
+            </CommandBar.Content>
+            <AppBarButton Icon="Read" Label="About" Foreground="White" Click="about_Page" />
+        </CommandBar>
+    </Page.BottomAppBar>
+
+</Page>
